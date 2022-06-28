@@ -1,0 +1,36 @@
+html {
+  background: url('../public/geom.jpg')
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Iosevka Fixed;
+}
+
+title-bar {
+  background-color: #d3d3d3;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@keyframes animate {
+  0% {
+      width: 0px;
+      height: 0px;
+  }
+  30% {
+      width: 50px;
+      height: 0px;
+  }
+  60% {
+      width: 50px;
+      height: 80px;
+  }
+}
