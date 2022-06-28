@@ -1,1 +1,0 @@
-# TODO: create hello/hi/hallo/你好 gif instead of simple hi

@@ -1,4 +1,3 @@
-import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
@@ -8,7 +7,7 @@ import Text from '../components/Text'
 import { Fade } from 'react-awesome-reveal'
 
 
-const Home: NextPage = () => {
+const Home = () => {
   return (
     <div>
       <Head>
@@ -18,7 +17,7 @@ const Home: NextPage = () => {
       </Head>
 
       <Navbar />
-      <Fade direction='down'>
+      <Fade direction="down">
         <Titlebar />
         <Text />
       </Fade>
